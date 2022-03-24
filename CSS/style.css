@@ -1,0 +1,301 @@
+:root{
+   /*## Primary*/
+
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+
+/*### Neutral*/
+
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%); 
+}
+
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    margin: 40px 35px 40px 35px;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif; 
+    font-weight: 400;
+    color: var(--Dark-Grayish-Blue);
+}
+
+p{
+    color: var(--Grayish-Blue);
+    line-height: 30px;
+}
+.header_image{
+    
+    padding: 30px;
+}
+.com{
+    width:100%
+}
+.mid{
+    width:100%
+}
+
+.header_heading{
+    font-weight: 600;
+    font-size: 38px;
+}
+
+p{
+    margin: 20px 0px 45px 0px;
+}
+
+.submain-p{
+    margin: 20px 0px 45px 0px;
+}
+
+.main-p{
+    margin: 20px 0px 45px 0px;
+}
+
+.submain-1_p{
+    margin: 20px 0px 45px 0px;
+}
+
+.header_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header_button-1{
+    background-color: var(--Strong-Cyan);
+    color: var(--Dark-Grayish-Blue);
+    text-decoration: none;
+    padding: 15px 70px 15px 70px;
+    border-radius: 60px;
+    box-shadow: 1px 3px 20px 4px hsl(171deg 66% 44% / 19%)
+}
+
+.header_button-2{
+    background-color: var(--Light-Blue);
+    color: var(--Dark-Grayish-Blue);
+    text-decoration: none;
+    padding: 15px 70px 15px 70px;
+    border-radius: 60px;
+    margin: 30px 0px 50px 0px;
+    box-shadow: 1px 3px 20px 0px hsl(0deg 0% 0% / 55%);
+}
+
+.main{
+    margin: 100px 0px 10px 0px;
+}
+
+.main_heading{
+    font-size:30px;
+    font-weight: 600;
+}
+
+.main-2{
+    margin: 95px 0px 15px 0px;
+}
+
+.main-2_section{
+    margin: 95px 0px 15px 0px;
+}
+
+.submain_heading{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.sub{
+    margin: 25px;
+}
+
+.submain-1_heading{
+    color: var(--Dark-Grayish-Blue);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.brand{
+    margin: 5px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.brand1{
+    margin: 45px 0px 10px 0px;
+    width: 90%;
+    
+    
+}
+
+.main-3{
+    margin: 95px 0px 15px 0px;
+}
+
+.footer{
+    margin: 95px -35px 0px -35px;
+    background-color: hsl(201deg 11% 66% / 13%);
+    padding: 40px;
+}
+
+.logo1{
+    height: 10%;
+    width: 15%;
+}
+
+.footer_links{
+    margin: 45px 0px 25px 0px;
+    
+}
+
+.sep{
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_link{
+    margin: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 1024px){
+    body{
+        background-image: url(../images/bg-header-desktop.png);
+        margin: 0px;
+    }
+
+    p{
+        padding: 0px 160px 0px 160px;
+    }
+
+    .main_heading{
+        font-size:40px;
+    }
+
+    .header_button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .header_button-1{
+        margin: 0px 10px 0px 0px ;
+    }
+    .header_button-1:hover{
+        background-color: hsl(171deg 66% 44% / 80%);
+    }
+
+    .header_button-2{
+        margin: 0px 0px 0px 10px ;
+
+    }
+    .header_button-2:hover{
+        background-color: hsl(233deg 100% 69% / 80%);
+    }
+
+    .main-2{
+        display: flex;
+    }
+
+    .com{
+        height: 10%;
+        width: 60%;
+    }
+
+    .main-2_section{
+        
+        text-align: left;  
+        margin: 0px;
+        padding: 50px 124px 0px 99px;
+    }
+    
+    .submain-p{
+        margin: 0px 0px 62px 0px;
+        padding: 0px;
+    }
+
+
+
+    .main{
+        margin: 100px 0px 85px 0px
+    }
+
+    .main-p{
+        padding: 0px 351px 0px 311px;
+    }
+
+    .mid{
+        width:70%
+    }
+
+    .submain-1{
+        display: flex;
+    }
+
+    .submain-1_p{
+        padding: 0px 26px 0px 35px;
+    }
+
+
+    .brand{
+        display: flex;
+    }
+
+    .brand1{
+        margin:45px 0px 10px 0px;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;    
+    }
+
+
+    .ul{
+        display: flex;
+    }
+    .logo1{
+        width: 100px;
+    }
+
+    .seplink{
+        display: flex;
+    }
+
+    .sep:hover{
+        color: var(--Strong-Cyan);
+
+    }
+
+
+    .social_link:hover{
+        color: var(--Strong-Cyan);
+    }
+}
